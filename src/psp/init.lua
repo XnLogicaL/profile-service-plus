@@ -9,10 +9,10 @@ psp._thread = nil
 psp._issues = 0
 psp.onprofileloaded = nil
 
-local ProfileService = require(script.Parent.ProfileService)
-local Exceptions = require(script.Parent.Exceptions)
-local Profiles = require(script.Parent.Manager)
-local Template = require(script.Parent.Template)
+local ProfileService = require(script.ProfileService)
+local Exceptions = require(script.Exceptions)
+local Profiles = require(script.Manager)
+local Template = require(script.Template)
 
 Exceptions.new_exception("AppNotRunningError")
 Exceptions.new_exception("CrossServerCheckError")
